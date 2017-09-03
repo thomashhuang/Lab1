@@ -31,9 +31,9 @@
 -->
 
 <!--
-	Configuration customized for CS125 MP1.
-	
-	Customizations marked with MP1.
+	Configuration customized for CS125 Lab2.
+
+	Customizations marked with Lab2.
  -->
 
 <module name="Checker">
@@ -44,16 +44,16 @@
 
         <property name="basedir" value="${basedir}"/>
     -->
-	
-	<!-- MP1: Add warning suppression via @SuppressWarnings Java annotation. -->
+
+	<!-- Lab2: Add warning suppression via @SuppressWarnings Java annotation. -->
 	<module name="SuppressWarningsFilter" />
-	
+
     <property name="fileExtensions" value="java, properties, xml"/>
 
     <!-- Checks that a package-info.java file exists for each package.     -->
     <!-- See http://checkstyle.sf.net/config_javadoc.html#JavadocPackage -->
-    
-    <!-- MP1: We don't create a package. -->
+
+    <!-- Lab2: We don't create a package. -->
     <!-- <module name="JavadocPackage"/> -->
 
     <!-- Checks whether files end with a new line.                        -->
@@ -89,9 +89,9 @@
     <!-- </module> -->
 
     <module name="TreeWalker">
-		<!-- MP1: Add warning suppression via @SuppressWarnings Java annotation. -->
+		<!-- Lab2: Add warning suppression via @SuppressWarnings Java annotation. -->
 		<module name="SuppressWarningsHolder" />
-		
+
 		<!-- Checks for Javadoc comments.                     -->
         <!-- See http://checkstyle.sf.net/config_javadoc.html -->
         <module name="JavadocMethod"/>
@@ -122,7 +122,7 @@
 
         <!-- Checks for Size Violations.                    -->
         <!-- See http://checkstyle.sf.net/config_sizes.html -->
-        <!-- MP1: 80 characters is too few on modern monitors. Google uses 100, so so do we. -->
+        <!-- Lab2: 80 characters is too few on modern monitors. Google uses 100, so so do we. -->
         <module name="LineLength">
         		<property name="max" value="100"/>
         </module>
@@ -163,8 +163,9 @@
         <module name="HiddenField"/>
         <module name="IllegalInstantiation"/>
         <module name="InnerAssignment"/>
-        
-        <module name="MagicNumber"/>
+
+        <!-- Lab2: We need magic numbers for this one. -->
+        <!-- <module name="MagicNumber"/> -->
         <module name="MissingSwitchDefault"/>
         <module name="SimplifyBooleanExpression"/>
         <module name="SimplifyBooleanReturn"/>
@@ -173,7 +174,7 @@
         <!-- See http://checkstyle.sf.net/config_design.html -->
         <module name="DesignForExtension"/>
         <module name="FinalClass"/>
-        <!-- MP1: Our utility classes must have public main methods. -->
+        <!-- Lab2: Our utility classes must have public main methods. -->
         <!-- <module name="HideUtilityClassConstructor"/> -->
         <module name="InterfaceIsType"/>
         <module name="VisibilityModifier"/>

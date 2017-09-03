@@ -3,9 +3,7 @@ import edu.illinois.cs.cs125.lib.Zen.Zen;
 /**
  * An example Hello World program written using Zen Graphics.
  */
-
 public class HelloGraphicalWorld {
-
     /**
      * Print "Hello, world!" to the display.
      *

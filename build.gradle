@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     testCompile 'org.testng:testng:6.9.6'
-    compile 'com.github.cs125-illinois:Zen:0.2'
+    compile 'com.github.cs125-illinois:Zen:0.3'
 }
 
 checkstyle {
