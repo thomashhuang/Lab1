@@ -12,14 +12,11 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.cs125-illinois:Zen:master-SNAPSHOT'
+    compile 'com.github.cs125-illinois:Zen:1.0'
 }
 
 checkstyle {
     toolVersion "8.1"
-}
-configurations.all {
-    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 
 // vim: ts=4:sw=4:et
