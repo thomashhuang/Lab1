@@ -6,7 +6,7 @@ import edu.illinois.cs.cs125.lib.zen.Zen;
  * @see https://github.com/cs125-illinois/Zen
  * @see https://cs125-illinois.github.io/Zen/
  */
-public class Example3ColorOvalsIf {
+public class ColorOvalsIf {
    /**
      * This example draws beautiful ovals in happy joyous colors.
      *

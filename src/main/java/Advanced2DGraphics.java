@@ -10,7 +10,7 @@ import edu.illinois.cs.cs125.lib.zen.Zen;
  * @see https://github.com/cs125-illinois/Zen
  * @see https://cs125-illinois.github.io/Zen/
  */
-public class Example7AdvancedGraphics2D {
+public class Advanced2DGraphics {
 
     /**
      * This example gives us a sense of what Zen has been doing for us.
@@ -25,7 +25,7 @@ public class Example7AdvancedGraphics2D {
         /*
          * Get a handle to our sprite image.
          */
-        ClassLoader classLoader = Example2SpriteMoveFlipBuffer.class.getClassLoader();
+        ClassLoader classLoader = Advanced2DGraphics.class.getClassLoader();
         File spriteFile = new File(classLoader.getResource("sprite1.gif").getFile());
         Image image = Zen.getCachedImage(spriteFile.getAbsolutePath());
 

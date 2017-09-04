@@ -6,7 +6,7 @@ import edu.illinois.cs.cs125.lib.zen.Zen;
  * @see https://github.com/cs125-illinois/Zen
  * @see https://cs125-illinois.github.io/Zen/
  */
-public class Example1OnceUponAWhile {
+public class OnceUponAWhile {
     /**
      * This example uses additional Zen graphics capabilities, including text rendering, colors, and
      * delays.

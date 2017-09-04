@@ -6,7 +6,7 @@ import edu.illinois.cs.cs125.lib.zen.Zen;
  * @see https://github.com/cs125-illinois/Zen
  * @see https://cs125-illinois.github.io/Zen/
  */
-public class Example4Paint {
+public class Paint {
     /**
      * This example draws rectangles at random locations near mouse clicks when the mouse button is
      * held down.

@@ -6,7 +6,7 @@ import edu.illinois.cs.cs125.lib.zen.Zen;
  * @see https://github.com/cs125-illinois/Zen
  * @see https://cs125-illinois.github.io/Zen/
  */
-public class Example6ReactionTimer {
+public class ReactionTimer {
     /**
      * This example tests your reaction time.
      *

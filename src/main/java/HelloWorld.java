@@ -6,7 +6,7 @@ import edu.illinois.cs.cs125.lib.zen.Zen;
  * @see https://github.com/cs125-illinois/Zen
  * @see https://cs125-illinois.github.io/Zen/
  */
-public class Example0HelloWorld {
+public class HelloWorld {
     /**
      * This is a basic example that simply prints a welcome message to the display.
      *
