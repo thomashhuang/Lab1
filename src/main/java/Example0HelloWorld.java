@@ -1,9 +1,9 @@
-import edu.illinois.cs.cs125.lib.Zen.Zen;
+import edu.illinois.cs.cs125.lib.zen.Zen;
 
 /**
  * An example Hello World program written using Zen Graphics.
  */
-public class HelloGraphicalWorld {
+public class Example0HelloWorld {
     /**
      * Print "Hello, world!" to the display.
      *

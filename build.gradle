@@ -12,16 +12,11 @@ repositories {
 }
 
 dependencies {
-    testCompile 'org.testng:testng:6.9.6'
-    compile 'com.github.cs125-illinois:Zen:0.3'
+    compile 'com.github.cs125-illinois:Zen:0.4'
 }
 
 checkstyle {
     toolVersion "8.1"
-}
-
-test {
-    useTestNG()
 }
 
 // vim: ts=4:sw=4:et
