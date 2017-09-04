@@ -1,14 +1,19 @@
 import edu.illinois.cs.cs125.lib.zen.Zen;
 
 /**
- * An example program written using Zen graphics.
+ * Example program written using Zen Graphics.
+ *
+ * @see https://github.com/cs125-illinois/Zen
+ * @see https://cs125-illinois.github.io/Zen/
  */
+
 public class Example1OnceUponAWhile {
 
     /**
-     * This program utilizes some of the additional Zen graphics capabilities.
+     * This example uses additional Zen graphics capabilities, including text rendering, colors, and
+     * delays.
      *
-     * @param unused the arguments
+     * @param unused unused input parameters
      */
     public static void main(final String[] unused) {
 

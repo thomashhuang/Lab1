@@ -1,11 +1,14 @@
 import edu.illinois.cs.cs125.lib.zen.Zen;
 
 /**
- * An example Hello World program written using Zen Graphics.
+ * Example program written using Zen Graphics.
+ *
+ * @see https://github.com/cs125-illinois/Zen
+ * @see https://cs125-illinois.github.io/Zen/
  */
 public class Example0HelloWorld {
     /**
-     * Print "Hello, world!" to the display.
+     * This is a basic example that simply prints a welcome message to the display.
      *
      * @param unused unused input parameters.
      */
