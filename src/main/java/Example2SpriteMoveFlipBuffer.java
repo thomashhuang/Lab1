@@ -8,9 +8,7 @@ import edu.illinois.cs.cs125.lib.zen.Zen;
  * @see https://github.com/cs125-illinois/Zen
  * @see https://cs125-illinois.github.io/Zen/
  */
-
 public class Example2SpriteMoveFlipBuffer {
-
     /**
      * This example shows how to use buffer swapping.
      *
@@ -33,6 +31,7 @@ public class Example2SpriteMoveFlipBuffer {
          * The X coordinate of the image that we are going to draw.
          */
         int x = 100;
+
         /*
          * This loop will run until the user exits the program.
          */
