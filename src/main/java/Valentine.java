@@ -32,7 +32,7 @@ public class Valentine {
         /*
          * ...and then out to the left.
          */
-        for (double heartXPosition = -1; heartXPosition > -1000; heartXPosition *= 1.1) {
+        for (double heartXPosition = 1; heartXPosition < 1000; heartXPosition *= 1.1) {
             Zen.drawImage(heartFile.getAbsolutePath(), (int) heartXPosition, 0);
             Zen.sleep(33);
         }
@@ -51,7 +51,7 @@ public class Valentine {
              * Write one message in its entirety.
              */
             Zen.setColor("red");
-            Zen.drawText("You stole my heart!", 100, 200);
+            Zen.drawText("I'm really hungry!", 100, 200);
 
             /*
              * Write another message iteratively.
